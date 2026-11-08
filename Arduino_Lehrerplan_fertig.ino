@@ -11,14 +11,6 @@ const byte BUTTON_UP = 2;
 const byte BUTTON_DOWN = 3;
 const byte BUTTON_OK = 4;
 
-// Entprellung
-unsigned long lastButtonChange = 0;
-const unsigned long debounceDelay = 40;
-
-bool lastUpState = HIGH;
-bool lastDownState = HIGH;
-bool lastOkState = HIGH;
-
 // ---------------- MENUES ----------------
 
 #define NONE 0
